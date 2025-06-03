@@ -1,0 +1,14 @@
+name: mughal-ai
+services:
+  - name: mughal-ai-service
+    type: web
+    ports:
+      - 5000
+    routes:
+      - path: "/"
+    build:
+      type: docker
+      dockerfile: ./Dockerfile
+    regions:
+      - fra
+      - sin
