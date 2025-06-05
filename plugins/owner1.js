@@ -53,22 +53,12 @@ async (conn, mek, m, { from, isOwner, quoted, reply }) => {
 });
 
 // 6. Clear All Chats
-cmd({
-    pattern: "clear",
-    desc: "Clear all chats from the bot.",
-    category: "owner",
-    react: "🧹",
-    filename: __filename
-},
-async (conn, mek, m, { from, isOwner, reply }) => {
-    if (!isOwner) return reply("❌ You are not the owner!");
-    try {
-        const chats = conn.chats.all();
-        for (const chat of chats) {
-            await conn.modifyChat(chat.jid, 'delete');
-        }
-        reply("🧹 All chats cleared successfully!");
-    } catch (error) {
-        reply(`❌ Error clearing chats: ${error.message}`);
-    }
+System({
+	pattern: 'clear ?(.*)',
+	fromMe: true,
+	desc: 'delete whatsapp chat',
+	type: 'whatsapp'
+}, async (message, match) => {
+	await message.client.chatModify({ delete: true, lastMessages: [{ key: message.data.key, messageTimestamp: message.messageTimestamp }] }, message.jid);
+	await message.reply('_Cleared.._')
 });
