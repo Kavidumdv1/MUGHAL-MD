@@ -27,6 +27,7 @@ DONT FORGET TO FORK 🍴 & STAR 🌟 REPO😇
 
 <a><img src='https://i.ibb.co/pBgs9G7z/a003501a28842714.jpg'/></a>
 
+<a><img src='https://i.ibb.co/pBgs9G7z/a003501a28842714.jpg'/></a>
 
 ***
 
@@ -37,7 +38,7 @@ DONT FORGET TO FORK 🍴 & STAR 🌟 REPO😇
 
 `FORK 🍴 AND STAR ⭐ IF YOU LIKE THIS BOT`
 
-  <a href="https://github.com/mughal-md/MUGHAL-MD/fork"><img title="ALI-MD" src="https://img.shields.io/badge/FORK-MUGHAL%20MD-BOTh?color=indigo&style=for-the-badge&logo=stackshare"></a>
+  <a href="https://github.com/mughal-md/MUGHAL-MD/fork"><img title="MUGHAL-MD" src="https://img.shields.io/badge/FORK-MUGHAL%20MD-BOTh?color=indigo&style=for-the-badge&logo=stackshare"></a>
   
 ### 2. 𐃁GET SESSION ID𐃁 
 
@@ -70,7 +71,7 @@ DONT FORGET TO FORK 🍴 & STAR 🌟 REPO😇
 <p style="text-align: center; font-size: 1.2em;">
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/mughal-md/MUGHAL-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/mughal/MUGHAL-MD)
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ### <h4 align="">3. KOYEB</h4>
@@ -219,4 +220,3 @@ THANK YOU ALI, JAWAD & SUPPORTERS
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ------
-
