@@ -4,7 +4,7 @@ const fs = require('fs'); // For saving downloaded files
 
 // GitHub repository details
 const REPO_OWNER = 'mughal';
-const REPO_NAME = 'mughal-md';
+const REPO_NAME = 'MUGHAL-MD';
 const PLUGINS_FOLDER = 'plugins'; // Folder where plugins are stored
 
 // GitHub API base URL
