@@ -3,7 +3,7 @@ const axios = require('axios'); // For making HTTP requests to GitHub API
 const fs = require('fs'); // For saving downloaded files
 
 // GitHub repository details
-const REPO_OWNER = 'mughal';
+const REPO_OWNER = 'mughal-md';
 const REPO_NAME = 'MUGHAL-MD';
 const PLUGINS_FOLDER = 'plugins'; // Folder where plugins are stored
 
